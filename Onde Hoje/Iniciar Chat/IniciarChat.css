@@ -1,0 +1,226 @@
+html{
+    width: 100%vh;
+    height: 100vh;
+    background-color: black;
+}
+
+header{
+    background-color: #202C334D;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: 100%;
+    font-size: 150%;
+    color: white;
+}
+
+.tituloheader{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(16, 21, 25);
+    width: 300px; height: 70px;
+    align-items: center;
+    margin-right: 30px;
+    font-family: 'koulen';
+}
+
+.titulo{
+    text-align: center;
+    font-size: 150%;
+}
+
+.pesquisa{
+    font-size: 70%;
+    width: 500px; height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 0% 7%;
+    justify-content: center;
+}
+
+.bar{
+    width: 300px;
+    border-radius: 400px;
+    background-color: rgb(43, 66, 80);
+    border: 0;
+    padding: 0% 5%;
+    height: 37px;   
+    background-image: url("https://www.pngkey.com/png/full/87-872187_lupa-search-icon-white-png.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15px;
+    border: 10px solid rgb(43, 66, 80);
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%; height: 100%;
+    font-family: "koulen";
+    margin: 0;
+}
+
+aside{
+    color: white;
+    font-family: 'kulim park';
+    background-color: #0b0b0b;
+    width: 300px; height: 470px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left: 0;
+}
+
+.perfil{
+    margin: 0;
+    width: 300px; height: 70px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(32,44,51,0.55);
+}
+
+.titulo_perfil{
+    margin: 0;
+    float: center;
+    align-items: center;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 8px;
+    padding-right: 50px;
+    font-family: 'koulen';
+}
+
+.imagem{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.proximo{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.titulo_proximo{
+    font-size: 20px;  
+}
+
+.alfinete{
+    padding-right: 20px;
+    padding-left: 15px;
+}
+
+.avalie{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.titulo_avalie{
+    padding-right: 25px;
+    padding-left: 40px;
+    font-size: 20px;  
+}
+
+.estrelinha{
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.toproles{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.titulo_toproles{
+    padding-right: 40px; 
+    font-size: 20px;  
+}
+
+.foguinho{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.mensagens{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.titulo_mensagens{
+    padding-right: 45px;
+    font-size: 20px;  
+}
+
+.envelopinho{
+    padding-right: 40px;
+    padding-left: 10px;
+}
+
+.configuracoes{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 35px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.titulo_configuracoes{
+    padding-right: 25px;
+    font-size: 20px;  
+}
+
+.engrenagem{
+    padding-right: 15px;
+    padding-left: 10px;
+}
+
+.ajuda{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 200px;
+    font-family: 'kulim park';
+}
+
+

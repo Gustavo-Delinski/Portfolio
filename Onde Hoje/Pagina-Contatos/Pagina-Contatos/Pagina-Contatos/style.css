@@ -1,0 +1,424 @@
+html{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 0%;
+    background-color: black;
+    color:white;
+}
+body{
+    /* border: 1px solid white; */
+    display: block;
+    /* flex-direction: column; */
+    padding: 0%;
+}
+*{
+    color: #fff;
+    font-family: Koulen;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* border: solid 1px salmon; */
+}
+
+#letras {
+    font-size: 25px;
+    margin: 0px;
+    font-family: "Kulim Park", sans-serif;
+}
+
+
+
+.chats {
+    /* border: 1px solid rgb(4, 199, 224); */
+    display: flex;
+    width: 70%;
+    height: 1000px;
+    flex-direction: column;
+    position: absolute;
+    top: 590px;
+    right: -465px;
+    transform: translate(-50%, -50%);
+}
+
+#proximo {
+    border: 5px solid #202c33;
+    border-radius: 5%;
+    display: flex;
+    width: 505px;
+    height: 850px;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right:620px;
+}
+
+#proximo2 {
+    border: 5px solid #202c33;
+    border-radius: 5%;
+    display: flex;
+    width: 505px;
+    height: 850px;
+    flex-direction: column;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+#proximos {
+    text-align: center;
+}
+
+#proximos2 {
+    text-align: center;
+    margin: 10px;
+    text-decoration-line: underline;
+    text-decoration-color:#2B4250;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    font-family: "Kulim Park", sans-serif;
+}
+
+
+.sidemenu-header{
+    /* border: 1px solid yellow; */
+    display:flex;
+    flex-direction: row;
+    height: 102px;
+    /* position:absolute; */
+    align-items: center;
+    background-color: rgba(32,44,51,0.3);
+    
+}
+.barra-pesquisa {
+    display: flex;
+    width: 462px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #2b4250;
+    height: 62px;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+.icone{
+    padding: 10px;
+}
+.titulo-home{
+    width: 325px;
+    height: 68px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    /* border: 1px solid lime; */
+}
+.texto-barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    font-size: 26px;
+    color: #021a27;
+    background-color: #2b4250;
+    height: 62px;
+    width: 462px;
+    border: #2b4250;
+    border-radius: 30px;
+    /* align-items: center; */
+}
+.lupinha{
+    margin: 20px;
+    height: 51px;
+}
+.notification-icon{
+    display: flex;
+    flex-direction: column;
+    
+    width: 60px;
+    height: 60px;
+    background-color: #2b4250;
+    border-radius: 50%;
+    justify-content: right;
+}
+.profile-picture-header{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #2b4250;
+    display: flex;
+}
+.euzinho{
+    border-radius: 50%;
+}
+.parte-lateral{
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    justify-content: right;
+    /* border: 1px solid white; */
+}
+.sidemenu{
+    margin: 0%;
+    padding: 0%;
+    width: 322px;
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: rgba(32,44,51,0.2);
+}
+.seu-perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    
+    /* border: 1px solid yellow; */
+    background-color: rgba(32,44,51,0.55);
+    width: 322px;
+    height: 98px;
+}
+.texto-perfil{
+    display: flex;
+    font-size: 45px;
+    /* border: 1px solid lime; */
+    width: 25vh;
+    justify-content: center;
+    align-items: center;
+}
+.proximo-a-mim{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 278px;
+    height: 51px;
+    /* border: 1px solid lime; */
+    font-size: 40px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.proximo-texto{
+    padding: 6%;
+    font-size: 30px;
+}
+.avalie{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 278px;
+    height: 51px;
+    /* border: 1px solid lime; */
+    font-size: 40px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.estrelinha{
+    padding: 25px;
+}
+.avalie-texto{
+    font-size: 30px;
+}
+.top-roles{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 278px;
+    height: 51px;
+    /* border: 1px solid lime; */
+    font-size: 40px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.foguinho{
+    padding: 25px;
+}
+.top-roles-texto{
+    font-size: 30px;
+}
+.mensagens{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 278px;
+    height: 51px;
+    /* border: 1px solid lime; */
+    font-size: 40px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.envelopinho{
+    padding: 25px;
+}
+.mensagens-texto{
+    font-size: 30px;
+}
+.configuracoes{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 278px;
+    height: 51px;
+    /* border: 1px solid lime; */
+    font-size: 40px;
+    background-color: rgba(32,44,51,0.55);
+    border-radius: 15px;
+}
+.engrenagem{
+    padding: 25px;
+}
+.configuracoes-texto{
+    font-size: 30px;
+}
+.ajuda{
+    /* border: 1px solid lime; */
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100vh;
+}
+.texto-ajuda{
+    font-size: 20px;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
+.corpo-site{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border: 1px solid lime; */
+}
+.profile-picture-body{
+    padding: 50px;
+    height: 209px;
+}
+.nome-perfil{
+    margin-top: 50px;
+    width: 779px;
+    height: 110px;
+    border: 2px solid #2B4250;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nome{
+    margin: 30px;
+}
+.bio-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 70px;
+    /* border: 1px solid; */
+    margin-left: 350px;
+    margin-top: 177px;
+}
+.bio-campo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 779px;
+    height: 124px;
+    border: 2px solid #2B4250;
+    /* filter: blur(2px); */
+    margin-left: 320px;
+    margin-top: 250px;
+    border-radius: 30px;
+}
+.bio-texto{
+    padding: 20px;
+    background-color: black;
+    border-radius: 30px;
+    height: 100%;
+    font-size: 20px;
+    /* border: 2px solid #2B4250; */
+    
+}
+.bio-texto:active{
+    border: 2px solid #2B4250;
+}
+textarea{
+    resize: none;
+}
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+    width: 230px;
+    border: 2px solid #2b4250;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 280px;
+    border-radius: 30px;
+    /* filter:blur(2px) */
+}
+.info-texto{
+    /* border: 1px solid; */
+    height: 25px;
+    margin: 0%;
+    margin-left: 20px;
+    font-size: 25px;   
+}
+.seus-interesses{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 350px;
+}
+.campo-interesses{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #2B4250;
+    margin-top: -40px;
+    width: 474px;
+    height: 200px;
+    border-radius: 30px;
+    flex-wrap: wrap;
+}
+.interesse{
+    /* border: 1px solid; */
+    height: 48px;
+    background-color: #BABABA;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.interesse-1-texto{
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 29px;
+    margin-top: 2px;
+    padding: 6px;
+}
+
+.pessoa {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    left: 2%;
+    padding: 30px;
+    padding-top: 60px;
+    margin-left: 3%;
+    height: 80px;
+    
+}
